@@ -36,7 +36,7 @@ class ResumeApplicationTests {
 	void contextLoads() {
       Date date =new GregorianCalendar(2000, Calendar.FEBRUARY, 11).getTime();
 
-        System.out.println("kek");
+
       assertTrue (validator.isValid(date,null));
 
 	}
